@@ -8,7 +8,7 @@ import math
 import matplotlib.pyplot as plt
 
 #投げる針の本数が「面積に対して」それほど多くないほうが良い。
-#十分に投げる範囲の面積が大きい必要がある。
+#十分に投げる範囲の面積が「「充分に」」大きい必要がある。
 N=100
 a=np.zeros((N,2,2))
 #a[1,1]=1
@@ -28,8 +28,11 @@ for i in range (N):
 #    plt.plot(r1,r2)
 #重なっているか判定
    # print(int(a[i,1,1]))
+   #針の両端のｙ座標の整数部分が等しい場合、平行線と重なっていない。
     if int(a[i,0,1])==int(a[i,1,1]):
+    
         num=1+num
+        #numは平行線線が重なっていない針の本数。
 #print(r1,r2,"yo")        
 #print(a)
 print(num)
