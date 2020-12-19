@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 arr=[]
 for i in range(5000):
-    N=30
+    N=50
     a=np.zeros((N,2,2))
     #a[1,1]=1
 
