@@ -36,7 +36,7 @@ for i in range (N):
 #print(r1,r2,"yo")        
 #print(a)
 print(num)
-ok=N-num
+ok=N-num　　#okが平行線と重なっている針の本数。
 # print(ok)
 # print(N/num)
 print(N/ok)
